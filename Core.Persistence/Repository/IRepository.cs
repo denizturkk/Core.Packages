@@ -30,7 +30,6 @@ public interface IRepository<TEntity, TEntityId> : IQuery<TEntity>
         bool withDeleted = false,
         bool enableTracking = true
           
-
     );
 
     Paginate<TEntity> GetListByDynamic(
