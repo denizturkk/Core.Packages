@@ -24,7 +24,7 @@ namespace Core.Persistence.Dynamic
 
         public String Operator { get; set; }
         public String? Logic { get; set; }
-        public IEnumerable<Filter> Filters { get; set; }
+        public IEnumerable<Filter>? Filters { get; set; }
 
      
     }
